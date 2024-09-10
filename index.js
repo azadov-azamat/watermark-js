@@ -105,15 +105,6 @@ async function addDynamicWatermark(imageUrl, watermarkInput, isImageUrl, positio
 }
 
 // Example usage
-// addDynamicWatermark(
-//     'https://post-uz.s3-accelerate.amazonaws.com/properties/515/72e119af-d0de-4c2f-8429-fd55acbf2b48',   // Replace with your main image URL
-//     'Real estate',    // Replace with your watermark image URL or text
-//     false,                              // isImage: true for image, false for text
-//     'bottom-left',                    // Position: 'top-left', 'top-right', 'center', 'bottom-left', 'bottom-right'
-//     'watermarked-image.png'   // Replace with the path where you want to save the watermarked image
-// );
-
-// Example usage
 addDynamicWatermark(
     'https://post-uz.s3-accelerate.amazonaws.com/properties/515/72e119af-d0de-4c2f-8429-fd55acbf2b48',   // Replace with your main image URL
     'https://post-uz.s3-accelerate.amazonaws.com/companies/29/03365a18-3dc7-452e-9918-db71183d17af',    // Replace with your watermark image URL or text
@@ -121,12 +112,3 @@ addDynamicWatermark(
     'top-right',                    // Position: 'top-left', 'top-right', 'center', 'bottom-left', 'bottom-right'
     'watermarked-image.png'   // Replace with the path where you want to save the watermarked image
 );
-
-// Example usage
-// addDynamicWatermark(
-//     'https://post-uz.s3-accelerate.amazonaws.com/properties/515/72e119af-d0de-4c2f-8429-fd55acbf2b48',   // Replace with your main image URL
-//     'https://post-uz.s3-accelerate.amazonaws.com/companies/31/3f3faf38-a77b-42a3-8c73-d58b7c9dcecb',    // Replace with your watermark image URL or text
-//     true,                              // isImage: true for image, false for text
-//     'top-right',                    // Position: 'top-left', 'top-right', 'center', 'bottom-left', 'bottom-right'
-//     'watermarked-image.png'   // Replace with the path where you want to save the watermarked image
-// );
